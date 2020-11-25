@@ -14,6 +14,7 @@ for line in input:
 	if (len(words) > 3):
 		tree[words[0]] = words[3:]
 
+print(tree)
 # print(weights)
 # print(tree["ddneaes"])
 
