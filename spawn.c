@@ -33,7 +33,7 @@ void	make_day(char *s_year, char *s_day)
 	year = atoi(s_year);
 
 	assert(0 < day && day <= 25 && "Day argument is out of bounds. Valid range is [1, 25].");
-	assert(2015 < year && year <= 2021 && "Year argument is out of bounds. Valid range is [2015, 2020]");
+	assert(2015 < year && year <= 2023 && "Year argument is out of bounds. Valid range is [2015, 2020]");
 
 	asprintf(&day_dir, "day_%02d", day);
 	mkdir(day_dir, S_IRWXU | S_IRGRP | S_IXGRP | S_IROTH | S_IXOTH);
